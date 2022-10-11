@@ -1,0 +1,22 @@
+Regole accesso progetto (es. anno 2022/2023):
+
+L'accesso al progetto didattico avviene in due distinti momenti dell'anno. I due insiemi di studenti che accedono in quei due momenti sono denominati I lotto e II lotto 
+L'accesso al I o al II lotto dipende dal raggiunto soddisfacimento dei vincoli di ammissione.
+
+La formazione dei gruppi del I lotto avverrà, in seduta pubblica, durante la lezione di "data x". Analogo evento avverrà all'inizio del II semestre, previo annuncio tramite la bacheca Moodle di questo insegnamento.
+
+Per poter partecipare a tale evento, gli studenti candidati al I lotto dovranno iscriversi al tabellone dedicato, entro e non oltre le ore X del giorno Y, 
+riportando in esso gli esami loro mancanti a quel momento. (Analoga cosa sarà richiesta, a suo tempo, ai candidati al II lotto, con scadenza fissata al giorno Z.)
+
+Due sono i tipi di arretrato che pregiudicano la partecipazione ai gruppi di progetto didattico di IS:
+·        il mancato superamento degli esami propedeutici (PO, BD), che è vincolo tassativo; 
+·        il mancato superamento di due o più esami del I o II anno, tra i non propedeutici, 
+il cui recupero dovrà avere precedenza rispetto a IS, al fine di liberare il tempo di studio necessario per le attività di progetto didattico 
+senza causare carichi di lavoro insostenibili, incompatibili con lo svolgimento di attività collaborative serie e paritarie.
+
+La procedura pubblica di formazione dei gruppi esaminerà la situazione dichiarata da ciascuno studente registrato nel tabellone, 
+confermando o cassando ciascun nominativo in relazione alla sua specifica situazione. 
+Quando il numero di candidati sarà definitivo, il docente deciderà la dimensione minima e massima dei gruppi di progetto, 
+e userà un algoritmo ad-hoc per assegnare ogni studente a uno di tali gruppi, in modo semi-casuale.
+
+
