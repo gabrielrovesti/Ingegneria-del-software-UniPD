@@ -1,0 +1,60 @@
+Regole accesso progetto (es. anno 2022/2023):
+
+L'accesso al progetto didattico avviene in due distinti momenti dell'anno. I due insiemi di studenti che accedono in quei due momenti sono denominati I lotto e II lotto 
+L'accesso al I o al II lotto dipende dal raggiunto soddisfacimento dei vincoli di ammissione.
+
+La formazione dei gruppi del I lotto avverrà, in seduta pubblica, durante la lezione di "data x". Analogo evento avverrà all'inizio del II semestre, previo annuncio tramite la bacheca Moodle di questo insegnamento.
+
+Per poter partecipare a tale evento, gli studenti candidati al I lotto dovranno iscriversi al tabellone dedicato, entro e non oltre le ore X del giorno Y, 
+riportando in esso gli esami loro mancanti a quel momento. (Analoga cosa sarà richiesta, a suo tempo, ai candidati al II lotto, con scadenza fissata al giorno Z.)
+
+Due sono i tipi di arretrato che pregiudicano la partecipazione ai gruppi di progetto didattico di IS:
+·        il mancato superamento degli esami propedeutici (PO, BD), che è vincolo tassativo; 
+·        il mancato superamento di due o più esami del I o II anno, tra i non propedeutici, 
+il cui recupero dovrà avere precedenza rispetto a IS, al fine di liberare il tempo di studio necessario per le attività di progetto didattico 
+senza causare carichi di lavoro insostenibili, incompatibili con lo svolgimento di attività collaborative serie e paritarie.
+
+La procedura pubblica di formazione dei gruppi esaminerà la situazione dichiarata da ciascuno studente registrato nel tabellone, 
+confermando o cassando ciascun nominativo in relazione alla sua specifica situazione. 
+Quando il numero di candidati sarà definitivo, il docente deciderà la dimensione minima e massima dei gruppi di progetto, 
+e userà un algoritmo ad-hoc per assegnare ogni studente a uno di tali gruppi, in modo semi-casuale.
+
+- I gruppi sono formati dal prof casualmente e sono composti di 7 persone
+
+- Una volta fatti, occorre scegliere i capitolati (presentati in lezione apposita)
+elencando resoconto, incontri esplorativi e motivazioni della scelta
+Vanno dichiarati gli impegni, la scadenza ultima di consegna prevista,
+il preventivo dei costi calcolato secondo regolamento
+e il totale di ore produttive assegnate a persona (tra 80 e 95 come min/max)
+
+- I ruoli sono 6 e devono essere definiti a rotazione nel gruppo:
+(Responsabile, Amministratore, Analista, Progettista, Programmatore, Verificatore)
+
+- Dopo la presentazione dei capitolati, occorre scrivere a qualche azienda,
+programmando un incontro per potersi sentire e chiarire eventuali dubbi.
+Nel contempo, definire contatti (mail, logo, canali come Discord, Telegram, ecc.).
+In questa fase, andrà scritta la lettera di presentazione, dettagliando capitolato scelto,
+ruoli di progetto, stima dei possibili costi e verbali di tutti i possibili incontri di progetto.
+Non solo le aziende a sceglierci, ma Tullio a scegliere per noi.
+Questo va mandato per mail direttamente al prof (senza allegati, mi raccomando, ma inserendo il link
+ad una repository GitHub; consigliata la pagina di tipo Organizzazione su GitHub).
+Altra nota: non è obbligatorio scrivere in LaTeX, si possono scrivere i documenti
+come meglio si crede. 
+
+- Per la presentazione della candidatura occorre presentare:
+    - lettera di presentazione
+    - dichiarazione impegni e preventivo costi
+    - studio dei capitolati
+    - verbali (interni ed esterni)
+Si vedano alcune repo di esempio inserite sul Mega.
+
+- L'email con i link per le lettere di presentazione (no allegati mi raccomando)
+va mandata dall'indirizzo del gruppo (non dai singoli studenti o da quello del responsabile),
+e ovviamente scrive colui che in quel momento è responsabile.
+La risposta in merito alla lettera arriva direttamente per mail. 
+
+- Quando mandiamo la mail di presentazione, viene mandata solo a Tullio
+mettendo (forse) Cardin in copia.
+
+- La candidatura alle revisioni viene mandata a Cardin, Tullio solo in cc (cioè, in conoscenza)
+altrimenti si inalbera
