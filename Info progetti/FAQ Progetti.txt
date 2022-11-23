@@ -26,6 +26,9 @@ elencando resoconto, incontri esplorativi e motivazioni della scelta
 Vanno dichiarati gli impegni, la scadenza ultima di consegna prevista,
 il preventivo dei costi calcolato secondo regolamento
 e il totale di ore produttive assegnate a persona (tra 80 e 95 come min/max)
+Il costo minimo è fissato e il calcolo delle ore viene dato dalla moltiplicazione per 6/7 (in base ai 
+componenti del gruppo). Alcuni progetti possono andare sotto al costo minimo (nel 2022 era 12000, ma alcuni
+sono stati aggiudicati con poco più di 10000). 
 
 - I ruoli sono 6 e devono essere definiti a rotazione nel gruppo:
 (Responsabile, Amministratore, Analista, Progettista, Programmatore, Verificatore)
@@ -58,3 +61,19 @@ mettendo (forse) Cardin in copia.
 
 - La candidatura alle revisioni viene mandata a Cardin, Tullio solo in cc (cioè, in conoscenza)
 altrimenti si inalbera
+
+- L'aggiudicazione degli appalti avviene tramite un form in Moodle e viene pubblicato
+giudizio e risultato (se ci sono cose da correggere, viene segnalato)
+
+- In ogni caso, la prima cosa da fare è definire un template unico di documenti.
+Fatto questo, contattare l'azienda ed iniziare ad analizzare i requisiti/definire
+almeno le bozze progettuali di documenti per la RTB, cioè la prima revisione.
+In particolare, i documenti sono:
+- Piano di Progetto 
+- Analisi dei Requisiti 
+- Glossario
+- Norme di Progetto 
+- Lettera di presentazione
+Si ricorda, anche in questo caso, di non inviare allegati,
+ma inserire il link della repo di documentazione di riferimento.
+
