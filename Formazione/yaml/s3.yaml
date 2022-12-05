@@ -1,0 +1,24 @@
+Resources:
+  S3StorageBucketAssets:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: pokedex-storage
+      CorsConfiguration:
+        CorsRules:
+          - AllowedMethods:
+              - GET
+              - PUT
+              - DELETE
+              - HEAD
+              - POST
+            AllowedOrigins:
+              - "*"
+            AllowedHeaders:
+              - "*"
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: false
+        BlockPublicPolicy: false
+        IgnorePublicAcls: false
+        RestrictPublicBuckets: false
+      AccessControl: "PublicReadWrite"
+    DeletionPolicy: Retain

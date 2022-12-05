@@ -1,0 +1,72 @@
+Resources:
+  S3BucketWebapp:
+    Type: AWS::S3::Bucket
+    Properties: 
+      BucketName: pokedex-webapp
+      AccessControl: Private
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+    DeletionPolicy: Retain
+
+  CloudFrontOriginIdentity:
+    Type: AWS::CloudFront::CloudFrontOriginAccessIdentity
+    Properties:
+      CloudFrontOriginAccessIdentityConfig:
+        Comment: 'origin identity'
+
+  S3BucketPolicyWebapp:
+    Type: AWS::S3::BucketPolicy
+    DependsOn: S3BucketWebapp
+    Properties:
+      Bucket: !Ref S3BucketWebapp
+      PolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal:
+              AWS: !Sub 'arn:aws:iam::cloudfront:user/CloudFront Origin Access Identity ${CloudFrontOriginIdentity}'
+            Action: 's3:GetObject'
+            Resource: arn:aws:s3:::pokedex-webapp/*
+
+  DistributionWebapp:
+    Type: AWS::CloudFront::Distribution
+    Properties:
+      DistributionConfig:
+        Origins:
+          - DomainName: !GetAtt S3BucketWebapp.RegionalDomainName
+            Id: !Ref S3BucketWebapp
+            S3OriginConfig:
+              OriginAccessIdentity: !Sub 'origin-access-identity/cloudfront/${CloudFrontOriginIdentity}'
+        Enabled: true
+        DefaultRootObject: index.html
+        HttpVersion: http2
+        CustomErrorResponses:
+          - ErrorCode: 403
+            ResponseCode: 200
+            ResponsePagePath: /index.html
+          - ErrorCode: 404
+            ResponseCode: 200
+            ResponsePagePath: /index.html
+        DefaultCacheBehavior: 
+          AllowedMethods:
+            - DELETE
+            - GET
+            - HEAD
+            - OPTIONS
+            - PATCH
+            - POST
+            - PUT
+          TargetOriginId: !Ref S3BucketWebapp
+          ForwardedValues: 
+            QueryString: true
+            Cookies:
+              Forward: none
+            Headers:
+              - 'Origin'
+          CachePolicyId: "658327ea-f89d-4fab-a63d-7e88639e58f6"
+          ViewerProtocolPolicy: "redirect-to-https"
+        ViewerCertificate:
+          CloudFrontDefaultCertificate: 'true'
