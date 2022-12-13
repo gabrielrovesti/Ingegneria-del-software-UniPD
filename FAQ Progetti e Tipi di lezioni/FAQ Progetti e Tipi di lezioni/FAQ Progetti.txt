@@ -9,8 +9,8 @@ Per poter partecipare a tale evento, gli studenti candidati al I lotto dovranno 
 riportando in esso gli esami loro mancanti a quel momento. (Analoga cosa sarà richiesta, a suo tempo, ai candidati al II lotto, con scadenza fissata al giorno Z.)
 
 Due sono i tipi di arretrato che pregiudicano la partecipazione ai gruppi di progetto didattico di IS:
-·        il mancato superamento degli esami propedeutici (PO, BD), che è vincolo tassativo; 
-·        il mancato superamento di due o più esami del I o II anno, tra i non propedeutici, 
+·  il mancato superamento degli esami propedeutici (PAO, BD), che è vincolo tassativo; 
+·  il mancato superamento di due o più esami del I o II anno, tra i non propedeutici, 
 il cui recupero dovrà avere precedenza rispetto a IS, al fine di liberare il tempo di studio necessario per le attività di progetto didattico 
 senza causare carichi di lavoro insostenibili, incompatibili con lo svolgimento di attività collaborative serie e paritarie.
 
@@ -19,7 +19,9 @@ confermando o cassando ciascun nominativo in relazione alla sua specifica situaz
 Quando il numero di candidati sarà definitivo, il docente deciderà la dimensione minima e massima dei gruppi di progetto, 
 e userà un algoritmo ad-hoc per assegnare ogni studente a uno di tali gruppi, in modo semi-casuale.
 
-- I gruppi sono formati dal prof casualmente e sono composti di 7 persone
+Nel form di iscrizione per il progetto, si segnino anche gli eventuali opzionali (consigliato)
+
+- I gruppi sono formati dal prof casualmente e sono composti di 6/7 persone
 
 - Una volta fatti, occorre scegliere i capitolati (presentati in lezione apposita)
 elencando resoconto, incontri esplorativi e motivazioni della scelta
@@ -56,11 +58,9 @@ va mandata dall'indirizzo del gruppo (non dai singoli studenti o da quello del r
 e ovviamente scrive colui che in quel momento è responsabile.
 La risposta in merito alla lettera arriva direttamente per mail. 
 
-- Quando mandiamo la mail di presentazione, viene mandata solo a Tullio
-mettendo (forse) Cardin in copia.
-
-- La candidatura alle revisioni viene mandata a Cardin, Tullio solo in cc (cioè, in conoscenza)
-altrimenti si inalbera
+- Quando mandiamo la mail di presentazione per le candidature, viene mandata solo a Tullio, non inviando
+nessun allegato ma scrivendo il link della repo pubblica.
+Tullio darà riscontro tramite mail della cosa.
 
 - L'aggiudicazione degli appalti avviene tramite un form in Moodle e viene pubblicato
 giudizio e risultato
@@ -68,8 +68,37 @@ giudizio e risultato
 - In ogni caso, la prima cosa da fare è definire un template unico di documenti.
 Fatto questo, contattare l'azienda ed iniziare ad analizzare i requisiti/definire
 almeno le bozze progettuali di documenti per la RTB, cioè la prima revisione.
-In particolare, i documenti sono:
-- Piano di Progetto 
-- Analisi dei Requisiti 
-- Glossario
-- Norme di Progetto 
+In particolare, i documenti sono (prima versione, questi si aggiorneranno):
+- Norme di Progetto (documentazione interna)
+- Piano di Progetto (documentazione esterna)
+- Analisi dei Requisiti (documentazione esterna)
+- Glossario (documentazione esterna)
+- Piano di Qualifica (documentazione esterna)
+- Verbali (interni ed esterni) (documentazione esterna)
+
+Invece, la specifica architetturale e manuale utente vanno fatti per la PB.
+Alla RTB va presentata la praima versione dei documenti che tanto poi continuerete a scrivere, modificare e correggere.
+
+- Consigliato un software come Jira/Trello/GitHub Projects
+per la visualizzazione a calendario delle attività, relativa assegnazione
+delle issue, attività di verifica. Questo risulta utile e necessario
+anche per le Norme di Progetto, oltre che a livello organizzativo.
+
+- Per la RTB, oltre ai documenti, va realizzato un PoC (Proof of Concept),
+demo che dimostra la fattibilità del prodotto da realizzare.
+Inoltre, va presentata una lettera di candidatura, esattamente come
+per l'aggiudicazione degli appalti.
+Il PoC viene caricato in una repo apposita e sarà oggetto di discussione
+con il prof. Cardin, sulla base del periodo nel quale candidarsi
+per la prima revisione. Da quanto dice Tullio, sarà lo stesso Cardin a comunicare
+quando candidarsi. 
+
+- Fare solo una milestone per revisione è sbagliato;
+farne almeno più di una per revisione, basta non farne esattamente 2 sole (Tullio sconsiglia).
+Per esempio, può avere senso introdurne una per ogni versione del documento.
+
+- Il PoC viene fatto con le tecnologie del progetto (per capire come usarle, principalmente)
+
+- La candidatura alle revisioni viene mandata a Cardin, Tullio solo in cc (cioè, in conoscenza)
+
+
