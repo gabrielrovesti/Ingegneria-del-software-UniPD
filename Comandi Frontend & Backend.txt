@@ -1,0 +1,37 @@
+Backend
+
+Per Windows; non inserire "sls" quando si usa Powershell ma "serverless"
+Per Linux: inserire comandi pure con "sls" al posto di "serverless"
+
+Dentro la cartella API:
+> serverless start (per far partire le API)
+
+Dentro la cartella sweg-traduzioni-api (deve stare attivo = 1 terminale)
+> serverless offline
+
+In un'altra finestra di terminale (deve stare attivo = 1 terminale)
+> serverless dynamodb start (per far partire il DB) 
+> 
+Far partire sia DB che API:
+> serverless offline start
+
+Chiamate con Postman:
+(Prima, se mai fatto)
+- Scaricare la cli di AWS 
+- Lanciare aws configure
+- Do invio a Access Key Id/AccessKey
+- Default region - us-east-1
+- All'ultima sezione do invio
+(Poi)
+- Prima creo il tenant (faccio Send)
+- Faccio qualsiasi altra chiamata
+
+Frontend
+
+> npm i
+> npm start
+
+POC:
+- Funzione di inserimento dati da tutti i form
+- Collegamento backend e frontend
+- API che chiama le varie cose
