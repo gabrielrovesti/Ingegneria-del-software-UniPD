@@ -1,4 +1,4 @@
-Regole accesso progetto (es. anno 2022/2023):
+--- Regole accesso progetto (es. anno 2022/2023) ---
 
 L'accesso al progetto didattico avviene in due distinti momenti dell'anno. I due insiemi di studenti che accedono in quei due momenti sono denominati I lotto e II lotto 
 L'accesso al I o al II lotto dipende dal raggiunto soddisfacimento dei vincoli di ammissione.
@@ -21,6 +21,8 @@ e userà un algoritmo ad-hoc per assegnare ogni studente a uno di tali gruppi, i
 
 Nel form di iscrizione per il progetto, si segnino anche gli eventuali opzionali (consigliato)
 
+--- Tips Varie: Post Assegnazione Capitolati e prima dell'RTB.
+
 - I gruppi sono formati dal prof casualmente e sono composti di 6/7 persone
 
 - Una volta fatti, occorre scegliere i capitolati (presentati in lezione apposita)
@@ -34,6 +36,7 @@ sono stati aggiudicati con poco più di 10000).
 
 - I ruoli sono 6 e devono essere definiti a rotazione nel gruppo:
 (Responsabile, Amministratore, Analista, Progettista, Programmatore, Verificatore)
+I periodi si decidono internamente, normalmente tra le 2 e 4 settimane
 
 - Dopo la presentazione dei capitolati, occorre scrivere a qualche azienda,
 programmando un incontro per potersi sentire e chiarire eventuali dubbi.
@@ -62,8 +65,8 @@ La risposta in merito alla lettera arriva direttamente per mail.
 nessun allegato ma scrivendo il link della repo pubblica.
 Tullio darà riscontro tramite mail della cosa.
 
-- L'aggiudicazione degli appalti avviene tramite un form in Moodle e viene pubblicato
-giudizio e risultato
+- L'aggiudicazione degli appalti avviene tramite un form in Moodle e viene pubblicato giudizio e risultato
+ed eventuali correzioni da dover apportare.
 
 - In ogni caso, la prima cosa da fare è definire un template unico di documenti.
 Fatto questo, contattare l'azienda ed iniziare ad analizzare i requisiti/definire
@@ -97,8 +100,52 @@ quando candidarsi.
 farne almeno più di una per revisione, basta non farne esattamente 2 sole (Tullio sconsiglia).
 Per esempio, può avere senso introdurne una per ogni versione del documento.
 
-- Il PoC viene fatto con le tecnologie del progetto (per capire come usarle, principalmente)
+- Il PoC viene fatto con le tecnologie del progetto (per capire come usarle, principalmente);
+non necessariamente tutti e non per forza si deve rispondere ai requisiti. 
+Si deve dimostrare la fattibilità del prodotto, accompagnando a colloquio una serie
+di slide per dimostrare quanto si sta facendo.
+
+- Consigliato fare colloqui direttamente con Cardin prima delle revisioni;
+aspettarsi tanta carne da parte sua e cazziatoni nel caso, ma meglio prevenire che curare direi.
 
 - La candidatura alle revisioni viene mandata a Cardin, Tullio solo in cc (cioè, in conoscenza)
+
+- Il voto lo comunica solo Vardanega con relativo commento scritto entro un paio di giorni dopo il colloquio. 
+Ma dentro scrive anche ciò che gli riferisce Cardin, quindi influisce pure lui sul voto.
+Comunque un po' vi dicono anche a voce durante i colloqui, in breve volendo sintetizzare 
+al 90% verrete riempiti di critiche, Cardin sosterrà che non sia ben progettato,.... 
+Tullio non è molto diverso.  A più di qualche gruppo Cardin comunque li rimanda indietro 
+a risistemare l'Analisi dei Requisiti.  Cardin prima fate il colloquio e poi lui impiega 
+dei giorni a guardare l'Analisi dei Requisiti e per mail vi dirà se e cosa dovete 
+sistemare o se nonostante le sue critiche vi da ugualmente il semaforo verde per Tullio
+
+- Nelle repo o in giro sono presenti alcune sigle, ma sono passate:
+Revisioni formali (Revisione dei Requisiti [RR], Revisione di Accettazione [RA])
+Revisioni di progresso (Revisione di Progettazione [RP], Revisione di Qualifica [RQ])
+
+--- Consigli a posteriori ---
+
+- Per l'Analisi dei Requisiti, Cardin vi riempie di parole sui casi d'uso (usare la sintassi corretta in primis).
+Per fare bene gli UC, basti vedere secondo me gli appelli corretti che ci sono su Mega.
+Va ad un livello di dettaglio per fare UC di ogni cosa, praticamente.
+Pensare in modo "modulare"; scomporre funzionalità e ripensare tutto in modo coerente e ben organizzato. 
+
+--- Per RTB ---
+
+Esempio comunicazione di Cardin:
+	
+Dal 20 gennaio 2023 avranno luogo i colloqui per la revisione di avanzamento denominata Requirements and Technology Baseline.
+La revisione consta di due parti. Nella prima, con il prof. Cardin, ogni gruppo dovrà descrivere e dimostrare un Proof of Concept, che dia evidenza dell'ispezione tecnologica fatta fino a quel momento e della capacità del fornitore di integrare le componenti scelte. 
+Durante il colloquio dovranno essere presentate le tecnologie scelte e dare evidenza concreta della loro integrazione. Questo colloquio ha durata massima di 20 minuti.
+La richiesta di ammissione alla prima parte deve essere contestuale alla consegna del documenti di Analisi dei Requisiti.
+
+Questa prima parte è propedeutica e bloccante rispetto alla seconda, di carattere metodologico, nella quale il fornitore discuterà gli aspetti di gestione di progetto con il prof. Vardanega.
+I colloqui remoti avverranno utilizzando Zoom, in finestre temporali giornaliere, in modalità first-come-first-served. 
+I gruppi possono prenotare il colloquio relativo alla prima parte scrivendo a riccardo.cardin [at] unipd.it.
+
+- Sostanzialmente, la revisione con Cardin è un incontro di 20 minuti prenotabile scrivendogli.
+Questo comporta l'uso di una serie di slide, in cui tutti si parla e si dettagliano cose fatte sul progetto.
+Se si venisse bocciati, non si ottiene un voto negativo, ma si viene rimandati suggerendo
+le cose da sistemare entro il successivo colloquio.
 
 
