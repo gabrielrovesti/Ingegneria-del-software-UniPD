@@ -149,3 +149,10 @@ Se si venisse bocciati, non si ottiene un voto negativo, ma si viene rimandati s
 le cose da sistemare entro il successivo colloquio.
 
 
+--- Robe secondarie ---
+
+Si noti che:
+-	Le parole con gli accenti vanno bene, non quelle con gli apostrofi
+o	Esempio: Liberta’ non è corretto per Tullio, ma Libertà sì
+-	Si deve dire repòsitory e non reposìtory
+-	Le date vanno scritte nel formato YYYY-MM-DD
