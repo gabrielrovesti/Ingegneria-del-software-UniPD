@@ -82,6 +82,8 @@ In particolare, i documenti sono (prima versione, questi si aggiorneranno):
 Invece, la specifica architetturale e manuale utente vanno fatti per la PB.
 Alla RTB va presentata la praima versione dei documenti che tanto poi continuerete a scrivere, modificare e correggere.
 
+- La versione dei documenti deve essere sempre entro la 1.0.0 per una revisione, non dopo e non prima.
+
 - Consigliato un software come Jira/Trello/GitHub Projects
 per la visualizzazione a calendario delle attività, relativa assegnazione
 delle issue, attività di verifica. Questo risulta utile e necessario
@@ -123,6 +125,11 @@ sistemare o se nonostante le sue critiche vi da ugualmente il semaforo verde per
 Revisioni formali (Revisione dei Requisiti [RR], Revisione di Accettazione [RA])
 Revisioni di progresso (Revisione di Progettazione [RP], Revisione di Qualifica [RQ])
 
+--- Dubbi sui documenti ---
+
+- Per i verbali, si possono mettere tranquillamente come destinatari entrambi i professori senza problemi,
+sia in quelli interni che esterni.
+
 --- Consigli a posteriori ---
 
 - Per l'Analisi dei Requisiti, Cardin vi riempie di parole sui casi d'uso (usare la sintassi corretta in primis).
@@ -148,6 +155,25 @@ Questo comporta l'uso di una serie di slide, in cui tutti si parla e si dettagli
 Se si venisse bocciati, non si ottiene un voto negativo, ma si viene rimandati suggerendo
 le cose da sistemare entro il successivo colloquio.
 
+- Cardin vuole vedere il PoC e dopo circa una settimana dà semaforo verde o meno 
+segnalando errori possibili previsti nell'Analisi dei Requisiti, da sistemare entro la Product Baseline.
+Inoltre, occorre linkare:
+-- lettera di presentazione  
+-- Analisi dei Requisiti e UC 
+-- Proof of Concept 
+Non è obbligatorio per lui parlare tutti, ma meglio farlo.
+
+- Per Tullio: 
+Vi risponderà alla mail comunicandovi quando vi convoca a colloquio
+e scrive le indicazioni per la presentazione di cosa deve trattare. 
+Vado a memoria da l'anno scorso specificando che non si sa mai che si inventa Tullio: 
+erano 15minuti credo, aggiornamento obiettivi capitolato, 
+modifiche che state effettuando, autovalutazione e esito colloquio TB, 
+consuntivo di questo periodo (confrontato con il preventivo e motivando ritardi/differenze), 
+preventivo a finire. 
+Con Tullio dovete obbligatoriamente parlare tutti, 
+solo slide con Tullio che in mezzo interverrà per smerdarvi, 
+niente condivisione del prototipo o altro
 
 --- Robe secondarie ---
 
