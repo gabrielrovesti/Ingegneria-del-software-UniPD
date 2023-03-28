@@ -1,8 +1,0 @@
-L'esame è composto di due parti:
-- Teorica
-- Pratica
-
-Entrambe le parti prevedono un quiz e una parte a svolgimento collaborativo.
-Quest'ultima è fatta da gruppi di massimo 3 persone, ma se volete anche due o anche da soli.
-
-La durata totale è [X] per il quiz e [Y] per la parte a gruppi. 
